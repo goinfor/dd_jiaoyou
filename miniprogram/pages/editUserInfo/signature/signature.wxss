@@ -1,0 +1,9 @@
+/* miniprogram/pages/editUserInfo/signature/signature.wxss */
+button {
+  margin-top: 20rpx;
+}
+input {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+   margin-top: 20rpx;
+}

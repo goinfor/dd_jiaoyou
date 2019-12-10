@@ -1,0 +1,34 @@
+/* miniprogram/pages/user/user.wxss */
+.user-info{
+  height: 150rpx;
+  border: 1px solid #b4b5b6;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+.user-info image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 20rpx;
+}
+.user-info text {
+  margin-left: 20rpx;
+}
+.user-info button {
+  margin-left: 40rpx;
+}
+/* 用户列表 */
+.user-list{
+  margin-top: 40rpx;
+}
+.user-list-item {
+  height: 50rpx;
+  border-bottom: 1px dashed #b4b5b6;
+  padding: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

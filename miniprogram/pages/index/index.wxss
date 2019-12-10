@@ -1,0 +1,43 @@
+/**index.wxss**/
+.index-swiper{
+  /* width: 100% */
+  margin: 90rpx 20rpx 20rpx 20rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.index-swiper image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.index-tab{
+  display: flex;
+}
+.index-tab view {
+  flex: 1;
+  text-align: center;
+}
+.index-tab view.active {
+  border-bottom: 1px solid #f00;
+  color: #f00;
+}
+/* 首页列表部分 */
+.index-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.index-list-item {
+  width: 50%;
+  margin-top: 20rpx;
+  color: hotpink;
+}
+.index-list-item image {
+  width: 90%;
+  height: 250rpx;
+  margin: 0 auto;
+  display: block;
+}
+.index-list-text{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,15 @@
+/* miniprogram/pages/detail/detail.wxss */
+.detail-item {
+  margin: 20rpx;
+  border-bottom: 1px solid #4b5b6b;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.detail-item image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.danger {
+  color: red;
+}

@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<!-- 轮播图部分 -->
+<wxs src="../../utils/wordSplit.wxs" module="m1" />
+
+<search/>
+
+<view class="index">
+<swiper class="index-swiper" indicator-dots="{{true}}"
+        autoplay="{{true}}" circular="{{true}}">
+        <block wx:for="{{imgUrls}}" wx:key="index">
+          <swiper-item>
+            <image src="{{item.fileId}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+</view>
+<!-- 首页导航部分 -->
+<view class="index-tab">
+  <view class="{{ current == 'links'?'active':'' }}" data-current="links" bindtap="handleCurrent">推荐</view>
+  <view class="{{ current == 'time'?'active':'' }}"data-current="time" bindtap="handleCurrent">最新</view>
+</view>
+<!-- 首页列表项 -->
+<view class="index-list">
+  <view class="index-list-item" wx:for="{{listData}}" wx:key="index" >
+    <image src="{{item.userPhoto}}"
+    mode="aspectFill" data-id="{{item._id}}" bindtap="handleDetail"/>
+    <view class="index-list-text">
+      <text>{{ m1.wordSplit(item.nickName) }}</text>
+      <text bindtap="handleLinks" data-id="{{item._id}}" data-index="{{index}}">
+        <text class="iconfont icondianzan"></text>
+        <text>{{ m1.unitFormat(item.links) }}</text>
+      </text>
+    </view>
+  </view>
+</view>

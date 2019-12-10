@@ -1,0 +1,57 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx885682fbe4fda664",
+	"projectname": "dd_jioayou",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/detail/detail",
+					"pathName": "pages/detail/detail",
+					"query": "userId=e8f863ba5de9ca7400bdd0044a9f0047",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/friendLink/friendLink",
+					"pathName": "pages/friendLink/friendLink",
+					"query": "userId=e8f863ba5de9ca7400bdd0044a9f0047",
+					"scene": null
+				}
+			]
+		}
+	}
+}
